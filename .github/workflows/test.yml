@@ -5,7 +5,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: hello-action-ks@master
+    - uses: sumiranagg/hello-action-ks@master
       with:
         who-to-greet: 'Mundo'
       id: hello
