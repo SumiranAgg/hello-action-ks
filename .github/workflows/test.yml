@@ -7,7 +7,7 @@ jobs:
     steps:
     - uses: sumiranagg/hello-action-ks@master
       with:
-        who-to-greet: $name
+        who-to-greet: "$name"
       env: 
         name: 'Sumiran'
       id: hello
